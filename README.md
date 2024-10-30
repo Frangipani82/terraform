@@ -12,10 +12,10 @@ terraform apply
 Login to domain name registrar: https://login.ionos.es/
 Dirección de correo: orsolya.pix@gmail.com
 Contraseña: University22!+
-At Dominios & SSL find domain name: siteoforsi.com
+At Dominios & SSL find the domain name: siteoforsi.com
 Click at the three dots and click Servidores DNS
 On the next page click Editar servidores DNS
 Copy the DNS names from your Route53 siteoforsi record and insert them to Servidor DNS1, DNS2, DNS3 and DNS4
 Click Guardar
 After it is written that it can take up to 48 hours to actualize, but it just took a few minutes
-When using any IP address, use http instead of https
+When using any IP address, use HTTP instead of HTTPS
