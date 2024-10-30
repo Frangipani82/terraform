@@ -1,0 +1,19 @@
+# Giving values to the declared variables
+region             = "eu-west-3"
+vpc_cidr           = "10.0.0.0/16"
+availability_zones = ["eu-west-3a", "eu-west-3b", "eu-west-3c"]
+subnet_cidr_blocks = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]
+private_ips        = ["10.0.1.50", "10.0.2.50", "10.0.3.50"]
+image_id           = "ami-00d81861317c2cc1f"
+instance_type      = "t2.micro"
+key_name           = "web-ssh-key"
+key_path           = "~/.ssh/web-ssh-key.pub"
+min_size           = 1
+max_size           = 3
+desired_size       = 1
+target_scaling     = 70
+domain             = "siteoforsi.com"
+route_identifier   = "geo-zone"
+tcp_protocol       = "tcp"
+icmp_protocol      = "icmp"
+general_cidr_block = "0.0.0.0/0"
