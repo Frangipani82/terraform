@@ -17,5 +17,5 @@ Click at the three dots and click Servidores DNS
 On the next page click Editar servidores DNS
 Copy the DNS names from your Route53 siteoforsi record and insert them to Servidor DNS1, DNS2, DNS3 and DNS4
 Click Guardar
-After it is written that it can take up to 48 hours to actualize, but it just took a few minutes
+After it is written that it can take up to 48 hours to actualize, but for the first time it took about an hour and after just a few minutes
 When using any IP address, use HTTP instead of HTTPS
