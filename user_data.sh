@@ -4,7 +4,7 @@
 sudo yum update -y
 sudo yum install -y httpd
 
-#Copy html file to index.html file for the web server
+#Copy HTML file to index.html file for the web server
 sudo cat <<EOF > /var/www/html/index.html
 <!DOCTYPE html>
 <html lang="en">
